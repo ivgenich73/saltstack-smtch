@@ -1,6 +1,5 @@
 base:
  'minion':
-   - install-nginx
-   - install-phpfpm
-   - config-nginx
-   - cronjob
+   - packages-install
+   - services-config
+   - script-add
