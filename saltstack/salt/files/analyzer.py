@@ -35,4 +35,4 @@ for line in input_file:
 output_file = open("/var/log/analyzer-script-log/analyzer_script-" + start_date + ".log", "a")
 
 if counter > 0:
-	print ('///--- ' + str(start_time) + '   There are ' + str(counter) + ' "50x" error(s) in access.log. ---///\r\n\r\n' + output_string + '\r\n', end="", file=output_file)
+	print ('///--- ' + str(start_time) + '   There are ' + str(counter) + ' "50x" error(s) in access.log. ---///\r\n\r\n' + output_string + '\r\n\r\n', end="", file=output_file)
